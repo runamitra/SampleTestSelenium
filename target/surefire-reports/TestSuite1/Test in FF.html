@@ -1,0 +1,173 @@
+<html>
+<head>
+<title>TestNG:  Test in FF</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test in FF</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>11/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri May 22 17:37:58 IST 2015</td>
+</tr>
+<tr><td>Total time:</td><td>467 seconds (467485 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.webtek.test.SanityTest2.contactUs()'><b>contactUs</b><br>Test class: com.webtek.test.SanityTest2<br>Parameters: Customer service, sampletest1@mail.com, order1, This is for a sample testing. Please do not consider </td>
+<td></td>
+<td>36</td>
+<td>com.webtek.test.SanityTest2@3b6eb2ec</td></tr>
+<tr>
+<td title='com.webtek.test.SanityTest2.contactUs()'><b>contactUs</b><br>Test class: com.webtek.test.SanityTest2<br>Parameters: Webmaster, sampletest2@mail.com, order2, This is for a sample testing. Please do not consider </td>
+<td></td>
+<td>35</td>
+<td>com.webtek.test.SanityTest2@3b6eb2ec</td></tr>
+<tr>
+<td title='com.webtek.test.SanityTest2.contactUs()'><b>contactUs</b><br>Test class: com.webtek.test.SanityTest2<br>Parameters: Customer service, sampletest3@mail.com, order3, This is for a sample testing. Please do not consider </td>
+<td></td>
+<td>37</td>
+<td>com.webtek.test.SanityTest2@3b6eb2ec</td></tr>
+<tr>
+<td title='com.webtek.test.SanityTest2.contactUs()'><b>contactUs</b><br>Test class: com.webtek.test.SanityTest2<br>Parameters: Webmaster, sampletest4@mail.com, order4, This is for a sample testing. Please do not consider </td>
+<td></td>
+<td>37</td>
+<td>com.webtek.test.SanityTest2@3b6eb2ec</td></tr>
+<tr>
+<td title='com.webtek.test.SanityTest2.contactUs()'><b>contactUs</b><br>Test class: com.webtek.test.SanityTest2<br>Parameters: Customer service, sampletest5@mail.com, order5, This is for a sample testing. Please do not consider </td>
+<td></td>
+<td>37</td>
+<td>com.webtek.test.SanityTest2@3b6eb2ec</td></tr>
+<tr>
+<td title='com.webtek.test.SanityTest2.contactUs()'><b>contactUs</b><br>Test class: com.webtek.test.SanityTest2<br>Parameters: Webmaster, sampletest6@mail.com, order6, This is for a sample testing. Please do not consider </td>
+<td></td>
+<td>37</td>
+<td>com.webtek.test.SanityTest2@3b6eb2ec</td></tr>
+<tr>
+<td title='com.webtek.test.SanityTest2.contactUs()'><b>contactUs</b><br>Test class: com.webtek.test.SanityTest2<br>Parameters: Webmaster, sampletest6@mail.com, order6, This is for a sample testing. Please do not consider </td>
+<td></td>
+<td>38</td>
+<td>com.webtek.test.SanityTest2@3b6eb2ec</td></tr>
+<tr>
+<td title='com.webtek.test.SanityTest1.firstAddProductThenCheckOutWithSign()'><b>firstAddProductThenCheckOutWithSign</b><br>Test class: com.webtek.test.SanityTest1</td>
+<td></td>
+<td>114</td>
+<td>com.webtek.test.SanityTest1@7a0ac6e3</td></tr>
+<tr>
+<td title='com.webtek.test.SanityTest.signUser()'><b>signUser</b><br>Test class: com.webtek.test.SanityTest<br/>
+<a href="#Output-23880693" onClick='toggleBox("Output-23880693", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-23880693" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-23880693">
+Click action is perfromed on My Account link<br/>
+ entered in UserName text box<br/>
+ entered in Password text box<br/>
+Click action is performed on Submit button<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>com.webtek.test.SanityTest@59a6e353</td></tr>
+<tr>
+<td title='com.webtek.test.SanityTest.userSignUp()'><b>userSignUp</b><br>Test class: com.webtek.test.SanityTest<br>Parameters: sample2@t.com, ABC, DEF, password, ABC, DEF, company, Kalikapur, Ruby, kolkata, 00000, 9748888983, kolkata<br/>
+<a href="#Output-896072146" onClick='toggleBox("Output-896072146", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-896072146" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-896072146">
+Clicking on SignIn link<br/>
+Entering an email to register<br/>
+Clicking on Register button<br/>
+Clicked on Title radio button<br/>
+Enterd first name in the text field<br/>
+Enterd last name in the text field<br/>
+Enterd password in the text field<br/>
+Selecting days for Date of birth form the Dropdown<br/>
+Selecting Months for Date of birth form the Dropdown<br/>
+Selecting Years for Date of birth form the Dropdown<br/>
+Entering first name for shipping details<br/>
+Entering last name for shipping details<br/>
+Entering company name for shipping details<br/>
+Entering address1 for shipping details<br/>
+Entering address2 for shipping details<br/>
+Entering city for shipping details<br/>
+Entering state for shipping details<br/>
+Entering zip code for shipping details<br/>
+Entering country for shipping details<br/>
+Entering Mobile Number for shipping details<br/>
+Entering alias address for shipping details<br/>
+Clicking on Register button<br/>
+Logout form the application<br/>
+</div>
+</td>
+<td></td>
+<td>76</td>
+<td>com.webtek.test.SanityTest@59a6e353</td></tr>
+<tr>
+<td title='com.webtek.test.SanityTest1.verifyItemPresentInCartAndSummation()'><b>verifyItemPresentInCartAndSummation</b><br>Test class: com.webtek.test.SanityTest1</td>
+<td></td>
+<td>7</td>
+<td>com.webtek.test.SanityTest1@7a0ac6e3</td></tr>
+</table><p>
+</body>
+</html>
